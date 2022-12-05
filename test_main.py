@@ -1,9 +1,9 @@
-from main import printBigerNr
+from main import printBiggerNr
 
 
 def test_a():
-    assert printBigerNr(10, 3) == 10
+    assert printBiggerNr(10, 3) == 10
 
 
 def test_b():
-    assert printBigerNr(2, 5) == 5
+    assert printBiggerNr(2, 5) == 5
