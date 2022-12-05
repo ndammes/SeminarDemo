@@ -1,9 +1,13 @@
 def printBiggerNr(a, b):
+    printNr = True
+
+    if printNr == True:
+        print("Zahl 1: " + str(a) + ", Zahl 2: " + str(b))
     if a > b:
         return a
-    elif a == b:
-        return "Same Value"
-    else:
+    if a < b:
         return b
+    else:
+        return "a=b"
 
 
