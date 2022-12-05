@@ -6,7 +6,7 @@ def test_a():
 
 
 def test_b():
-    assert printBiggerNr(5, 8) == 10
+    assert printBiggerNr(5, 8) == 8
 
 def test_ab():
     assert printBiggerNr(5, 5) == "a=b"
