@@ -6,3 +6,5 @@ def test_a():
 
 
 
+def test_b():
+    assert printBiggerNr(5, 8) == 8
